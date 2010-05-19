@@ -15,13 +15,13 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 7b0c15d3c674b0664bd84b32190272697c487ed9 Changes
-SHA1 02b71306af3de9966f2c5c267913f7c6b31c553b Changes.ttl
-SHA1 004781742c3436b22dc39bbfc8f063fc86ca4fe0 Changes.xml
+SHA1 5c7a2a90d6b2c4a5a047817fa49678f51ce7c82b Changes.ttl
+SHA1 4a1838db2977c0285b3c7ba31095afa416de47d6 Changes.xml
 SHA1 e3fadc8326ae87a5bcb86510dec5ce6ea505d563 MANIFEST
 SHA1 354096507daf87ed4425cbff4f7aba6cf5bae921 MANIFEST.SKIP
-SHA1 a6172f0658238bbaeb77624d11385303e1db2575 META.yml
+SHA1 6f18d23b6ef1a519a39b0ec495ee26b0ac292581 META.yml
 SHA1 27615774fd42d35ad0e6ce5537b4e5aef0eddbc5 Makefile.PL
-SHA1 32bd54af1051418be3acb0ff1c8435b0e472fd3d README
+SHA1 aef0995d874f204cafdbf81c0bbd660fbc1371c9 README
 SHA1 7c3202fe551655d70b690f389f10a348b614294a TODO
 SHA1 8842ca38ce27ccf75e1ce8f5dfb93fa62d933b2e inc/Module/AutoInstall.pm
 SHA1 1ebec4119486a032a5612a403e8d7b7be973e938 inc/Module/Install.pm
@@ -37,17 +37,17 @@ SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.p
 SHA1 5c25f1104c0038041e3b93e0660c39171e4caf2b inc/Module/Install/Win32.pm
 SHA1 94d47349c803c4bd2a9230d25e4db0b6aaf1acd8 inc/Module/Install/WriteAll.pm
 SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
-SHA1 ce150ff55157cc69787a2ab62a09bc66066817d5 lib/RDF/RDFa/Generator.pm
-SHA1 ceb21efffde84e16a7309068f0b1ccbb3496b03d lib/RDF/RDFa/Generator/HTML/Head.pm
-SHA1 d84c44ac324cc2e40a36c2cfc8bb5034cbd676bb lib/RDF/RDFa/Generator/HTML/Hidden.pm
-SHA1 35da3858f10f169063501abf8d3dd09f40c2a4b5 lib/RDF/RDFa/Generator/HTML/Pretty.pm
-SHA1 ed9c29835d4c741f2dfe7134eaccbc38275b4a71 lib/RDF/RDFa/Generator/HTML/Pretty/Note.pm
+SHA1 1e732b7e29977b9aba0e89f96dab58b453d40697 lib/RDF/RDFa/Generator.pm
+SHA1 466dcbc03e33b63539b0b0c928af9c4f27fad91a lib/RDF/RDFa/Generator/HTML/Head.pm
+SHA1 e486f16ab1b3fdc7616ab34bc6e3c792114845a9 lib/RDF/RDFa/Generator/HTML/Hidden.pm
+SHA1 2f1ae19b0dffc0a0ab92a7d512aa8219311ec989 lib/RDF/RDFa/Generator/HTML/Pretty.pm
+SHA1 62d4d985c202eaba7484ddee2bcc530cb42935e2 lib/RDF/RDFa/Generator/HTML/Pretty/Note.pm
 SHA1 bb128dce2db8ad397dbeb957d79d084cc5d2391a t/00sig.t
 SHA1 b01bb61e52c0bb2c07305304677e11993daf8a9e t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkvynowACgkQzr+BKGoqfTlu6wCghS6saoUs+Z0V+1ZnNQWryRKq
-bA0AnRtK5yafkUVNQLcj5xnz83lqLZDD
-=rHyT
+iEYEARECAAYFAkvz8cAACgkQzr+BKGoqfTnwGQCePLDt2aUxa2m2qDdDZVAfm9cP
+YuMAniO+rp0ZfvqvX6X7OodZIwgZGZvv
+=zjTh
 -----END PGP SIGNATURE-----
