@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.61.
+signed via the Module::Signature module, version 0.63.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,40 +14,40 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 8fff2cdd9a2631bdd3297971edc113d95fcd8754 Changes
-SHA1 868ab5c251f68ee817fcbe25992b0b54e1b88d7e Changes.ttl
-SHA1 08e3f3226b4e017cc699408ed32c6ebca1080dcc Changes.xml
+SHA1 d3fe7e34574f42696db465fc024c0c79ae580d2b Changes
+SHA1 bebe99b444824d80e8bd2304c243318038d2a687 Changes.ttl
+SHA1 5dfc1d0692c52ba2b51bb1960efa2bcd1f64af7a Changes.xml
 SHA1 e3fadc8326ae87a5bcb86510dec5ce6ea505d563 MANIFEST
 SHA1 354096507daf87ed4425cbff4f7aba6cf5bae921 MANIFEST.SKIP
-SHA1 4124f895b0d34a8016a14ecace6bee6cabbf2b02 META.yml
+SHA1 501f561eb36445d5800dfd9b60b3d41aa8d39662 META.yml
 SHA1 27615774fd42d35ad0e6ce5537b4e5aef0eddbc5 Makefile.PL
 SHA1 aef0995d874f204cafdbf81c0bbd660fbc1371c9 README
 SHA1 7c3202fe551655d70b690f389f10a348b614294a TODO
-SHA1 e5fb92ac217988bfc7a6af739b0459627020a27e inc/Module/AutoInstall.pm
-SHA1 fd5f3c4f0418efee3b9b16cf8c3902e8374909df inc/Module/Install.pm
-SHA1 5c529e96420d964b192f011b121283a4916f7331 inc/Module/Install/AutoInstall.pm
-SHA1 7cd7c349afdf3f012e475507b1017bdfa796bfbd inc/Module/Install/Base.pm
-SHA1 ba186541bbf6439111f01fc70769cf24d22869bf inc/Module/Install/Can.pm
+SHA1 8842ca38ce27ccf75e1ce8f5dfb93fa62d933b2e inc/Module/AutoInstall.pm
+SHA1 1ebec4119486a032a5612a403e8d7b7be973e938 inc/Module/Install.pm
+SHA1 bec3c7f9af6e1a3cb4d143249956c98af30f0552 inc/Module/Install/AutoInstall.pm
+SHA1 24038af925a69df41972971356ccce885b0fe2ad inc/Module/Install/Base.pm
+SHA1 8f96eddfef548c9328457fbb17a121631cda356b inc/Module/Install/Can.pm
 SHA1 b19da2715a136aba51510f687a7b4e431e0a4bec inc/Module/Install/DOAPChangeSets.pm
-SHA1 aaa50eca0d7751db7a4d953fac9bc72c6294e238 inc/Module/Install/Fetch.pm
-SHA1 219da5a95c290312a81477b226f005997d97dcfd inc/Module/Install/Include.pm
-SHA1 3e83972921d54198d1246f7278f08664006cd65d inc/Module/Install/Makefile.pm
-SHA1 12bf1867955480d47d5171a9e9c6a96fabe0b58f inc/Module/Install/Metadata.pm
+SHA1 ec29048e48edd9c9c55f9de7b773bd7c904335ad inc/Module/Install/Fetch.pm
+SHA1 01862227830d2547f38275eaee0eb9f5add5a252 inc/Module/Install/Include.pm
+SHA1 0384525d85d51e99532e3ad8729d870113646d14 inc/Module/Install/Makefile.pm
+SHA1 38c657de4d91f5a60ff8e6c6f6a5547daf7c4ab2 inc/Module/Install/Metadata.pm
 SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.pm
-SHA1 f7ee667e878bd2faf22ee9358a7b5a2cc8e91ba4 inc/Module/Install/Win32.pm
-SHA1 8ed29d6cf217e0977469575d788599cbfb53a5ca inc/Module/Install/WriteAll.pm
+SHA1 5c25f1104c0038041e3b93e0660c39171e4caf2b inc/Module/Install/Win32.pm
+SHA1 94d47349c803c4bd2a9230d25e4db0b6aaf1acd8 inc/Module/Install/WriteAll.pm
 SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
-SHA1 44b62a69ceef7fbab6de40dab8567ff956aff79f lib/RDF/RDFa/Generator.pm
-SHA1 082b5a9a5a2b169d7971a5949027f693977e12a3 lib/RDF/RDFa/Generator/HTML/Head.pm
-SHA1 1b8cd4e8ca29fe80ee002e0c2d0e08eea5752669 lib/RDF/RDFa/Generator/HTML/Hidden.pm
-SHA1 88b161d8aae392e5bbf8a045c88837db0da5d9c1 lib/RDF/RDFa/Generator/HTML/Pretty.pm
-SHA1 29c3ffcb5c95816853812468b369ee9dedee1d0a lib/RDF/RDFa/Generator/HTML/Pretty/Note.pm
+SHA1 4ffb53f34599dd0c2b969e0ce2713274639d90ab lib/RDF/RDFa/Generator.pm
+SHA1 7f82aa23d336fa54301c018e392e9c0c80f10a65 lib/RDF/RDFa/Generator/HTML/Head.pm
+SHA1 2e05a8746c680c20817002102900b86169a53838 lib/RDF/RDFa/Generator/HTML/Hidden.pm
+SHA1 2eea6fcacb0927b265441f2e097f91ed28434ff2 lib/RDF/RDFa/Generator/HTML/Pretty.pm
+SHA1 e3b50dde38627f469032e173462b045cb1c688c1 lib/RDF/RDFa/Generator/HTML/Pretty/Note.pm
 SHA1 bb128dce2db8ad397dbeb957d79d084cc5d2391a t/00sig.t
 SHA1 b01bb61e52c0bb2c07305304677e11993daf8a9e t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkv2UsMACgkQzr+BKGoqfTmjugCfR92mUty8nxg2VRDIjpd0WG4p
-zxcAn1IWTOUMaxmCXuIuheCxFohudNN7
-=NAPE
+iEYEARECAAYFAkv+5UcACgkQzr+BKGoqfTkzEQCgo4zPPpmO3gImhBIP6WmDrgji
+0bgAoKCwIiR7unLH7E0rOxB6yfBvhz2Z
+=FaQ9
 -----END PGP SIGNATURE-----
