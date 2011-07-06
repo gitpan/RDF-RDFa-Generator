@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.61.
+signed via the Module::Signature module, version 0.66.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,40 +14,39 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 b3a0fd821d966cd580c3fe9d2221fbe54bff437b Changes
-SHA1 9592677d7e4539a2a1d312f9eb240c6e4a6647fb Changes.ttl
-SHA1 318d90dcbc771da4a700ccd7c82ca92e91c1dbc3 Changes.xml
-SHA1 e3fadc8326ae87a5bcb86510dec5ce6ea505d563 MANIFEST
-SHA1 7fa804cc8bed7740ad669269c814286e0bd16bc4 MANIFEST.SKIP
-SHA1 f24ac59a50d03b007bb69b4e1372e41ec996cea7 META.yml
+SHA1 62598fa6a36f69152bd58da3ae7d9b1eacb5744b Changes
+SHA1 91ee9983748079ff968302e4feb1b140dcccf1d7 Changes.ttl
+SHA1 f320ef8fbe26af7a88a0a95d4641c0eb61f26a29 Changes.xml
+SHA1 6876437c69bc104dad5750d6045c7328c05754f7 MANIFEST
+SHA1 f5e0e1a1bb5bd5e30043a2123bf757fa648bedf8 MANIFEST.SKIP
+SHA1 57e631fd13fd63e9501ab43ae9316706873912c1 META.yml
 SHA1 758e66e62731ac10ed807ef13433da14bcce31a2 Makefile.PL
 SHA1 3bb505bd93d2cf1af2833b8d8ca2abb910ee4a18 README
 SHA1 7c3202fe551655d70b690f389f10a348b614294a TODO
-SHA1 e5fb92ac217988bfc7a6af739b0459627020a27e inc/Module/AutoInstall.pm
-SHA1 fd5f3c4f0418efee3b9b16cf8c3902e8374909df inc/Module/Install.pm
-SHA1 5c529e96420d964b192f011b121283a4916f7331 inc/Module/Install/AutoInstall.pm
-SHA1 7cd7c349afdf3f012e475507b1017bdfa796bfbd inc/Module/Install/Base.pm
-SHA1 ba186541bbf6439111f01fc70769cf24d22869bf inc/Module/Install/Can.pm
-SHA1 b19da2715a136aba51510f687a7b4e431e0a4bec inc/Module/Install/DOAPChangeSets.pm
-SHA1 aaa50eca0d7751db7a4d953fac9bc72c6294e238 inc/Module/Install/Fetch.pm
-SHA1 219da5a95c290312a81477b226f005997d97dcfd inc/Module/Install/Include.pm
-SHA1 3e83972921d54198d1246f7278f08664006cd65d inc/Module/Install/Makefile.pm
-SHA1 12bf1867955480d47d5171a9e9c6a96fabe0b58f inc/Module/Install/Metadata.pm
+SHA1 20c73697e1713638140c719d8eaa19a275ed43a5 inc/Module/AutoInstall.pm
+SHA1 7305dbe2904416e28decb05396988a5d51d578be inc/Module/Install.pm
+SHA1 ca13d9875e1249f6e84f7070be8152c34837955e inc/Module/Install/AutoInstall.pm
+SHA1 129960509127732258570c122042bc48615222e1 inc/Module/Install/Base.pm
+SHA1 cf3356ed9a5bd2f732527ef9e7bc5ef4458c8a93 inc/Module/Install/Can.pm
+SHA1 986dcb1f1b6a1fde7c51f1558b93368e2429caa2 inc/Module/Install/DOAPChangeSets.pm
+SHA1 bf0a3e1977effc2832d7a813a76dce3f31b437b6 inc/Module/Install/Fetch.pm
+SHA1 b501b0df59a5cd235cca473889f82c3d3429f39e inc/Module/Install/Include.pm
+SHA1 b721c93ca5bc9a6aa863b49af15f1b1de6125935 inc/Module/Install/Makefile.pm
+SHA1 026cc0551a0ad399d195e395b46bdf842e115192 inc/Module/Install/Metadata.pm
 SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.pm
-SHA1 f7ee667e878bd2faf22ee9358a7b5a2cc8e91ba4 inc/Module/Install/Win32.pm
-SHA1 8ed29d6cf217e0977469575d788599cbfb53a5ca inc/Module/Install/WriteAll.pm
+SHA1 5457015ea5a50e93465bf2dafa29feebd547f85b inc/Module/Install/Win32.pm
+SHA1 051e7fa8063908befa3440508d0584a2497b97db inc/Module/Install/WriteAll.pm
 SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
-SHA1 38cdf5e20fdc3f75b0fd344dc123ea6fed6c139b lib/RDF/RDFa/Generator.pm
-SHA1 089370c495c6c3bedc70a7d99f93ef58b7e0de73 lib/RDF/RDFa/Generator/HTML/Head.pm
-SHA1 54b0c30e9cdd1a5fa44db85cee4b575e990540d9 lib/RDF/RDFa/Generator/HTML/Hidden.pm
-SHA1 10ad482b40107a258f4fb3fff42957bb1aa849bf lib/RDF/RDFa/Generator/HTML/Pretty.pm
-SHA1 d00555cb4176c4dff040eb1b330d1630262a0fde lib/RDF/RDFa/Generator/HTML/Pretty/Note.pm
-SHA1 bb128dce2db8ad397dbeb957d79d084cc5d2391a t/00sig.t
+SHA1 de41d5e4ba60a2a340fa45348d0b0a6a4fd16857 lib/RDF/RDFa/Generator.pm
+SHA1 e842f183d70be3d46dc7eb7741fd3d9b1172f86a lib/RDF/RDFa/Generator/HTML/Head.pm
+SHA1 ef17af5529a185cc71a6551c9d1452d0d92539fb lib/RDF/RDFa/Generator/HTML/Hidden.pm
+SHA1 ecfea6fbce75d5807e079bc4f596597cb51f0e7a lib/RDF/RDFa/Generator/HTML/Pretty.pm
+SHA1 26f12931ad6997d1ca3197793b4b8a75a4df0aae lib/RDF/RDFa/Generator/HTML/Pretty/Note.pm
 SHA1 b01bb61e52c0bb2c07305304677e11993daf8a9e t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkyE7gUACgkQzr+BKGoqfTlswACeL5QbbPe99/cphRBgqzR3BdBb
-92UAoK4vSmyrenhqv940rPPraGv3sAip
-=TpzP
+iEYEARECAAYFAk4UnS8ACgkQzr+BKGoqfTktoACdHMoOE9WYnsqrms3L89OQo793
+DWMAn36yVR+SI3PW0Ab+c8dtOjF3X1EF
+=W9WZ
 -----END PGP SIGNATURE-----
