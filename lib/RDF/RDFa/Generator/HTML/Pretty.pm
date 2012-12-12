@@ -2,14 +2,14 @@ package RDF::RDFa::Generator::HTML::Pretty;
 
 use 5.008;
 use base qw'RDF::RDFa::Generator::HTML::Hidden';
-use common::sense;
+use strict;
 use constant XHTML_NS => 'http://www.w3.org/1999/xhtml';
 use Encode qw'encode_utf8';
 use Icon::FamFamFam::Silk;
 use RDF::RDFa::Generator::HTML::Pretty::Note;
 use XML::LibXML qw':all';
 
-our $VERSION = '0.102';
+our $VERSION = '0.103';
 
 sub create_document
 {
@@ -47,6 +47,7 @@ sub nodes
 	my $subjects = {};
 	while (my $st = $stream->next)
 	{
+		next if $st->subject->is_literal;  # ???
 		my $s = $st->subject->is_resource ?
 			$st->subject->uri :
 			('_:'.$st->subject->blank_identifier);
@@ -359,6 +360,15 @@ sub _img
 		'http://rdf.data-vocabulary.org/#Person'               => 'user',
 		'http://rdf.data-vocabulary.org/#Review-aggregate'     => 'award_star_add',
 		'http://rdf.data-vocabulary.org/#Review'               => 'award_star_gold_1',
+		'http://schema.org/Person'                             => 'user_orange',
+		'http://schema.org/Event'                              => 'date',
+		'http://schema.org/FinancialService'                   => 'money',
+		'http://schema.org/TennisComplex'                      => 'sport_tennis',
+		'http://schema.org/Bakery'                             => 'cake',
+		'http://schema.org/Map'                                => 'world',
+		'http://schema.org/GolfClub'                           => 'sport_golf',
+		'http://schema.org/CafeOrCoffeeShop'                   => 'cup',
+		'http://schema.org/ProfilePage'                        => 'page_green',
 		'http://usefulinc.com/ns/doap#Project'                 => 'application_double',
 		'http://usefulinc.com/ns/doap#Version'                 => 'application_lightning',
 		'http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging' => 'tag_blue_add',

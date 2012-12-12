@@ -1,32 +1,35 @@
 ---
 abstract: 'generate some data in RDFa'
 author:
-  - 'Toby Inkster <tobyink@cpan.org>'
+  - '<http://purl.org/NET/cpan-uri/person/tobyink>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
   Test::More: 0.61
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
-generated_by: 'Module::Install version 1.00'
+dynamic_config: 0
+generated_by: 'Module::Install version 1.06'
 keywords:
+  - Generator
+  - HTML
+  - Output
   - RDF
   - RDFa
   - 'Semantic Web'
-  - Generator
-  - Serializer
   - Serialiser
-  - Output
+  - Serializer
   - Writer
-  - HTML
   - XHTML
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
+module_name: RDF::RDFa::Generator
 name: RDF-RDFa-Generator
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:
@@ -35,11 +38,10 @@ requires:
   RDF::Prefixes: 0
   RDF::Trine: 0.112
   XML::LibXML: 1.60
-  common::sense: 0
   perl: 5.8.0
 resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=RDF-RDFa-Generator
-  homepage: http://search.cpan.org/dist/RDF-RDFa-Generator/
+  homepage: https://metacpan.org/release/RDF-RDFa-Generator
   license: http://dev.perl.org/licenses/
-  repository: http://goddamn.co.uk/viewvc/perlmods/RDF-RDFa-Generator/
-version: 0.102
+  repository: https://bitbucket.org/tobyink/p5-rdf-rdfa-generator
+version: 0.103

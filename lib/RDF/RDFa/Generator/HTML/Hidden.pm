@@ -2,11 +2,11 @@ package RDF::RDFa::Generator::HTML::Hidden;
 
 use 5.008;
 use base qw'RDF::RDFa::Generator::HTML::Head';
-use common::sense;
+use strict;
 use RDF::Prefixes;
 use XML::LibXML qw':all';
 
-our $VERSION = '0.102';
+our $VERSION = '0.103';
 
 sub injection_site
 {

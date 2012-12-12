@@ -2,12 +2,12 @@ package RDF::RDFa::Generator::HTML::Head;
 
 use 5.008;
 use base qw'RDF::RDFa::Generator';
-use common::sense;
+use strict;
 use Encode qw'encode_utf8';
 use RDF::Prefixes;
 use XML::LibXML qw':all';
 
-our $VERSION = '0.102';
+our $VERSION = '0.103';
 
 sub new
 {
